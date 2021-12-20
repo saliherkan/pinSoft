@@ -1,0 +1,6 @@
+framework module Pods_PinSoftApp_PinSoftAppUITests {
+  umbrella header "Pods-PinSoftApp-PinSoftAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
