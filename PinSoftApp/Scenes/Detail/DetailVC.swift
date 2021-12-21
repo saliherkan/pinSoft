@@ -36,6 +36,26 @@ final class DetailVC: BaseVC, DetailVMDelegateOutputs {
         releasedLabel.text = "Released: " + detailResponse.released
         directorLabel.text = "Director: " + detailResponse.director
         languageLabel.text = "Language: " + detailResponse.language
+//        titleLabel.backgroundColor = UIColor.red
+        titleLabel.layer.cornerRadius = 10
+        titleLabel.layer.borderWidth = 1
+        titleLabel.layer.borderColor = UIColor.red.cgColor
+        
+        yearLabel.layer.cornerRadius = 10
+        yearLabel.layer.borderWidth = 1
+        yearLabel.layer.borderColor = UIColor.green.cgColor
+        
+        releasedLabel.layer.cornerRadius = 10
+        releasedLabel.layer.borderWidth = 1
+        releasedLabel.layer.borderColor = UIColor.blue.cgColor
+        
+        directorLabel.layer.cornerRadius = 10
+        directorLabel.layer.borderWidth = 1
+        directorLabel.layer.borderColor = UIColor.cyan.cgColor
+        
+        languageLabel.layer.cornerRadius = 10
+        languageLabel.layer.borderWidth = 1
+        languageLabel.layer.borderColor = UIColor.darkGray.cgColor
     }
     
 
