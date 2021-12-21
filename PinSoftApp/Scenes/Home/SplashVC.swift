@@ -19,7 +19,7 @@ final class ViewController: BaseVC {
             
             self.monitor.pathUpdateHandler = { path in
                 if path.status == .satisfied {
-                    self.SetLabelText(text: "Pinsoft We're connected! Redirecting")
+                    self.SetLabelText(text: "Pinsoft We're connected to Server!")
               
                     print("We're connected! Redirecting")
                     self.sonrakiEkranaGec3SnBekle()
